@@ -17,12 +17,6 @@ num3 = st.number_input("Enter the third number:", key="num3", min_value=-9999999
 # Clear input button
 clear_button = st.button("Clear Inputs")
 
-# Clear input fields on button click
-if clear_button:
-    num1 = ""
-    num2 = ""
-    num3 = ""
-    st.experimental_rerun()
 
 # Reset button
 reset_button = st.button("Reset")
